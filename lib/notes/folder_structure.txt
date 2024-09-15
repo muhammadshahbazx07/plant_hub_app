@@ -1,0 +1,58 @@
+# Useful lines
+	1. └──
+	2. ├──
+	3. │
+
+
+Rules 
+name/						# yeh folder ko indicate krta hai
+
+
+# Flutter Folder Structure
+
+1. Is folder structure ko bary project k liye banaya gya hai jisme same project main admin or userapp dono ka code hoga
+
+lib/						                # Project ka library folder
+│
+├── config/									# App ki configuration se related folder
+│	├── theme/								# App ki theme ka folder
+│	│	├── light_mode.dart					# Light mode 
+│	│	└── dark_mode.dart					# Dark mode
+│	│
+│	├── constants/							# App ki constant values like strings, assets paths ka folder
+│	│	├── colors.dart						# Colors 
+│	│	├── images.dart						# Image asset paths
+│	│	├── fonts.dart						# Font styles and families
+│	│	├── sizes.dart						# Common sizes like padding, margins, etc.
+│	│	└── strings.dart					# Static strings like app titles, button texts
+│	
+├── core/									# App ka core like model, services, controllers
+│	├── models/								# Data k model ka folder
+│	│	├── user_model.dart					# User ka model
+│	│	└── category_model.dart				# category ka model
+│	│
+│	├── controller/							# Data k logic (controller) ka folder
+│	│	├── auth_controller.dart			# User ka controller
+│	│	└── category_controller.dart		# category ka controller
+│	│
+├── feature/								# App k Features
+│	│	├── dashboard/				        # App k dashboard ka folder
+│	│	│   ├── dashboard/
+│	│   │	│   ├── dashboard_page.dart     # Main dashboard file
+│   │   │   │   └── others/                 # other structure
+│   │   │   │
+│	│	│   ├── app/
+│	│   │	│   ├── home_page.dart          # Main App file
+│   │   │   │   └── others/                 # other structure
+│	│   │	│
+│	│	│   ├── web/
+│	│   │	│   ├── index_page.dart         # Main Web file
+│   │   │   │   └── others/                 # other structure
+│	│   │	│
+├── shared/									# App k widgets
+│	│	├── custom_button.dart				# Button widget
+│	│	├── loading_spinner.dart			# Loading indicator widget
+│	│	└── app_drawer.dart.dart			# Sidebar widget
+│	│
+├── main.dart								# App ka main entry point
+├── firebase_options.dart					# Firebase ke main api file

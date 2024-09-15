@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "955054529108",
+    "project_id": "plant-hub-x07",
+    "storage_bucket": "plant-hub-x07.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955054529108:android:43f358b68e54bb1b856bc1",
+        "android_client_info": {
+          "package_name": "com.example.plant_hub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuDZftrUYzcXOjSSOa55q4zvL6Oo4JcAc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
